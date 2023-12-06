@@ -1,0 +1,15 @@
+npm init -y //criar o arquivo package.json
+
+npm install --save-dev webpack webpack-cli //instala os pacotes
+
+npx webpack //cria o build do webpack
+
+npm install --save-dev style-loader css-loader //instala os estilos
+
+npm install --save-dev mini-css-extract-plugin
+npm install --save-dev html-webpack-plugin
+
+
+//agora npm run build
+
+npm install --save-dev-server
